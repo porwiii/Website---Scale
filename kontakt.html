@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="Scale1.jpg" alt="Logo" class="logo-img">
+            <img src="Scale2.jpg" alt="Logo" class="logo-img">
+        </div>
+            <div class="title-container">
+                <h1 class="main-title">Scale</h1>
+                <h2 class="subtitle">The Universal Laws of Growth, <br> Innovation, Sustainability, and the <br> Pace of Life in Organisms, Cities, <br> Economies, and Companies</h2>
+                <h3 class="author">by Geoffrey West</h3>
+            </div>
+        
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Kontakt</h2>
+            <form class="contact-form" id="contactForm">
+                
+                <label for="email">E-Mail:</label>
+                <input type="text" id="email" name="email" placeholder="Wprowadź swój e-mail" required>
+                <span id="emailError" style="color: red; font-size: 0.9em;"></span> 
+    
+                <label for="subject">Temat:</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Wybierz temat</option>
+                    <option value="support">Wsparcie</option>
+                    <option value="feedback">Opinie</option>
+                    <option value="inquiry">Zapytanie ogólne</option>
+                </select>
+    
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Miejsce na twoją wiadomość" required></textarea>
+    
+                <input type="submit" value="Wyślij">
+            </form>
+        </section>
+    </main>
+    
+
+
+<footer>
+    <p>Marcin Porwisz</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
